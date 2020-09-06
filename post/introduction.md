@@ -1,5 +1,8 @@
 ---
 author: Riwandi
 date: '2020-07-26'
-title: 'Introduction'
+title: Introduction
+slug: introduction
 ---
+
+You can call me Wandi. i'm front end developer and also content writer. i like reading anything i see. likes ads, papan jalanan, etc.
