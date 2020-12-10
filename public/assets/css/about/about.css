@@ -1,0 +1,11 @@
+
+.about-image > img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.about-text > p {
+  font-size: 20px;
+  line-height: 1.75;
+}
