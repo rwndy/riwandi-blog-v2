@@ -1,24 +1,32 @@
 import React, { Fragment } from 'react'
 import Link from 'next/link'
+import Navbar from '../../components/nav/navigation-bar'
 
 const IndexPage = (props) => {
-  console.log(props)
+  console.log(props.blogs)
   return (
     <Fragment>
-      <h1 className="text-white">Blog List</h1>
-      <ul>
-        {
-          props.blogs.map((blog) => {
-            return (
-              <li key={blog.id}>
-                <Link href={`/blog/${blog.slug}`}>
-                  <a>{blog.title}</a>
-                </Link>
-              </li>
-            )
-          })
-        }
-      </ul>
+      <Navbar />
+      <section className="container-fluid">
+        <h1 className="text-white text-center mt-4">My Blog</h1>
+        <div className="container">      
+          <ul className="blog-list">
+            {
+              props.blogs.map((blog) => {
+                return (
+                  <li key={blog.id} className="blog-item">
+                    <Link href={`/blog/${blog.slug}`}>
+                      <a>{blog.title}</a>
+                    </Link>
+                      <p className="blog-author">Author: {blog.author}</p>
+                      <p className="blog-date">Date: {blog.date}</p>
+                  </li>
+                )
+              })
+            }
+          </ul>
+        </div>
+      </section>
     </Fragment>
   )
 }

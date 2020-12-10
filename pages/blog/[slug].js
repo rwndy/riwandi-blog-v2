@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navbar from '../../components/nav/navigation-bar'
 
 function BlogPostPage(props) {
   return (
-    <div>
-      <h1>{props.blog.title}</h1>
-      <section dangerouslySetInnerHTML={{ __html: props.blog.content }}></section>
-    </div>
+    <Fragment>
+      <Navbar />
+      <article className="container article-wrap">
+        <h1 className="text-white text-center mt-4 mb-3">{props.blog.title}</h1>
+        <div className="container article-text w-75" dangerouslySetInnerHTML={{ __html: props.blog.content }}>
+        </div>
+      </article>
+    </Fragment>
   );
 }
 

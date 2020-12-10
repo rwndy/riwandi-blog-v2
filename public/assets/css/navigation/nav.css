@@ -102,6 +102,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
       margin-bottom: 20px;
   }
 
+  .navigation--brand:hover {
+    color: #eaeaea;
+    text-decoration: none;
+  }
+
+  .navigation--link:hover {
+    color: #eaeaea;
+    text-decoration: none;
+  }
+
   .navigation--item {
     padding-right: 15px;
   }

@@ -1,0 +1,49 @@
+
+.blog-list {
+  margin: 40px 0 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.blog-item {
+  list-style: none;
+  background-color: #1b262c;
+  margin-bottom: 18px;
+  padding: 30px;
+}
+
+.blog-item > a {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 1.5;
+}
+
+.blog-item > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.blog-author {
+  color: #fff;
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.blog-date {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.article-text > p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.article-wrap {
+  height: 100%;
+}
