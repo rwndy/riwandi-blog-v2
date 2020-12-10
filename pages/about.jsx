@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section>
       <Navbar />
-      <div className="container justify-content-center">
+      <div className="container">
         <h1 className="text-center text-white mt-4 mb-3">About me</h1>
         <div className="about-image">
           <img src="../../assets/images/avatar.jpg" alt="Riwandi's avatar"/>
