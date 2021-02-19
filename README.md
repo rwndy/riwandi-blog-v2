@@ -1,3 +1,3 @@
 ## Riwandi Blog
 
-This Blog is Under Construction
+This blog can access now!
