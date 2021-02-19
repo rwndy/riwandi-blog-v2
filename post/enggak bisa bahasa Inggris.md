@@ -2,7 +2,7 @@
 author: Riwandi
 date: '2021-02-19'
 title: 'Enggak Bisa Bahasa Inggris'
-slug: enggak-bisa-bahasa-inggris
+slug: enggak bisa bahasa inggris
 ---
 
 Di negara Indonesia ini, rata-rata orang yang bisa menguasai bahasa Inggris itu tidak lebih banyak daripada bahasa kesehariannya.
