@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="mytopic" content="keseharian, keluh-kesah, trend, anak muda" />
         <meta property="og:title" content="Riwandi" />
         <meta property="og:description"
-        content="ARiwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang suka ngemil jajanan SD" />
+        content="Riwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang suka ngemil jajanan SD" />
         <meta property="og:image" content="/favicon.ico" />
       </Head>
       <Navbar />
