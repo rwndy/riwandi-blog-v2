@@ -10,6 +10,18 @@ export default function Home() {
         <title>Riwandi</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"></link>
+        <meta name="description" content="Riwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang suka ngemil jajanan SD" />
+        <meta name="keywords"
+        content="Riwandi, Penulis, Creative Writing, Front-end Developer, Keluh Kesah Anak Muda" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="distribution" content="global" />
+        <meta name="classification" content="Penulis konten, Front-end Developer , Anak muda" />
+        <meta name="mytopic" content="keseharian, keluh-kesah, trend, anak muda" />
+        <meta property="og:title" content="Riwandi" />
+        <meta property="og:description"
+        content="ARiwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang suka ngemil jajanan SD" />
+        <meta property="og:image" content="/favicon.ico" />
       </Head>
       <Navbar />
       <Layout>
