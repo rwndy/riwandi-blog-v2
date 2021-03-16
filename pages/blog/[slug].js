@@ -7,7 +7,7 @@ function BlogPostPage(props) {
       <Navbar />
       <article className="container article-wrap">
         <h1 className="text-white text-center mt-4 mb-3">{props.blog.title}</h1>
-        <div className="container article-text w-75" dangerouslySetInnerHTML={{ __html: props.blog.content }}>
+        <div className="container article-text" dangerouslySetInnerHTML={{ __html: props.blog.content }}>
         </div>
       </article>
     </Fragment>

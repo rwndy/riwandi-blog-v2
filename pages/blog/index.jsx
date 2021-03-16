@@ -7,7 +7,7 @@ const IndexPage = (props) => {
   return (
     <Fragment>
       <Navbar />
-      <section className="container-fluid">
+      <section className="container-fluid h-100">
         <h1 className="text-white text-center mt-4">My Blog</h1>
         <div className="container">      
           <ul className="blog-list">
