@@ -3,7 +3,10 @@ import Link from 'next/link'
 import Navbar from '../../components/nav/navigation-bar'
 
 const IndexPage = (props) => {
-  console.log(props.blogs)
+
+  const sort_post_by_dates = props.blogs
+    .sort((start_date, end_date) => new Date(end_date.date) - new Date(start_date.date))
+
   return (
     <Fragment>
       <Navbar />
@@ -12,7 +15,7 @@ const IndexPage = (props) => {
         <div className="container">      
           <ul className="blog-list">
             {
-              props.blogs.map((blog) => {
+              sort_post_by_dates.map(blog => {
                 return (
                   <li key={blog.id} className="blog-item">
                     <Link href={`/blog/${blog.slug}`}>
