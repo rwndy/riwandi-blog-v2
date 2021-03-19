@@ -1,10 +1,9 @@
 import React from 'react'
-import Navbar from '../components/nav/navigation-bar'
 
 const About = () => {
   return (
-    <section>
-      <Navbar />
+    <>
+    <section className="section-about">
       <div className="container">
         <h1 className="text-center text-white mt-4 mb-3">About me</h1>
         <div className="about-image">
@@ -17,6 +16,7 @@ const About = () => {
         </div>
       </div>
     </section>
+  </>
   )
 }
 

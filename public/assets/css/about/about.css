@@ -1,3 +1,7 @@
+.section-about {
+  height: 100%;
+}
+
 .about-image {
   display: flex;
   justify-content: center;
