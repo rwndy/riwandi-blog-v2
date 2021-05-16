@@ -1,0 +1,19 @@
+.maintance {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    & > img {
+      width: clamp(300px, 100%, 500px);
+    }
+  }
+
+  &__title {
+    font-size: 3.2rem;
+    color: $color-white;
+    text-align: center;
+  }
+
+}
+

@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Layout from '../components/layout/layout-home'
-import Navbar from '../components/nav/navigation-bar'
-import Footer from '../components/footer/footer'
+import Maintance from '../components/Maintance/Maintance'
 
 export default function Home() {
   return (
@@ -10,37 +8,20 @@ export default function Home() {
         <title>Riwandi</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"></link>
-        <meta name="description" content="Riwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang suka ngemil jajanan SD" />
+        <meta name="description" content="Riwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang memiliki pengalaman bekerja sebagai front-end developer lebih dari 1 tahun" />
         <meta name="keywords"
-        content="Riwandi, Penulis, Creative Writing, Front-end Developer, Keluh Kesah Anak Muda" />
+        content="Riwandi, Penulis, Creative Writing, Front-end Developer" />
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
         <meta name="distribution" content="global" />
-        <meta name="classification" content="Penulis konten, Front-end Developer , Anak muda" />
+        <meta name="classification" content="Penulis konten, Front-end Developer , Riwandi" />
         <meta name="mytopic" content="keseharian, keluh-kesah, trend, anak muda" />
         <meta property="og:title" content="Riwandi" />
         <meta property="og:description"
-        content="Riwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang suka ngemil jajanan SD" />
+        content="Riwandi adalah seorang Penulis dan juga Front-end Developer di Indonesia yang memiliki pengalaman bekerja sebagai front-end developer lebih dari 1 tahun" />
         <meta property="og:image" content="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Layout>
-        <div className="contact--icon-moon">
-          <img src="../../assets/images/moon.svg" alt="moon" className="icon-moon"/>
-        </div>
-        <h1 className="home--title__white">
-          Riwandi
-        </h1>
-        <span><p className="home--sub__white">(Front End Developer and Always Love You)</p></span>
-      </Layout>
-      <section className="contact">
-        <div className="contac--icon-cactus-1">
-          <img src="../../assets/images/cactus.svg" alt="icon cactus" className="icon-cactus"/>
-          <img src="../../assets/images/barrel.svg" alt="icon barrel" className="icon-brarrel"/>
-          <img src="../../assets/images/cactus-2.svg" alt="icon cactus" className="icon-cactus"/>
-        </div>
-      </section>
-      <Footer />
+      <Maintance />
     </div>  
   )
 }
