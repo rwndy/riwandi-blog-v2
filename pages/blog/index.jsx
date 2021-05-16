@@ -1,6 +1,4 @@
-import React, { Fragment } from 'react'
 import Link from 'next/link'
-import Navbar from '../../components/nav/navigation-bar'
 
 const IndexPage = (props) => {
 
@@ -8,8 +6,7 @@ const IndexPage = (props) => {
     .sort((start_date, end_date) => new Date(end_date.date) - new Date(start_date.date))
 
   return (
-    <Fragment>
-      <Navbar />
+    <>
       <section className="container-fluid h-100">
         <h1 className="text-white text-center mt-4">My Blog</h1>
         <div className="container">      
@@ -30,7 +27,7 @@ const IndexPage = (props) => {
           </ul>
         </div>
       </section>
-    </Fragment>
+    </>
   )
 }
 
