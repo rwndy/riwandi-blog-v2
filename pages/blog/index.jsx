@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import {Navbar, Footer} from '../../components'
 
 const IndexPage = (props) => {
 
@@ -7,8 +8,9 @@ const IndexPage = (props) => {
 
   return (
     <>
-      <section className="container-fluid h-100">
-        <h1 className="text-white text-center mt-4">My Blog</h1>
+    <Navbar />
+      <section className="container blog">
+        <h1 className="text-white text-center mt-4 blog__title">My Blog</h1>
         <div className="container">      
           <ul className="blog-list">
             {
@@ -18,7 +20,6 @@ const IndexPage = (props) => {
                     <Link href={`/blog/${blog.slug}`}>
                       <a>{blog.title}</a>
                     </Link>
-                      <p className="blog-author">Author: {blog.author}</p>
                       <p className="blog-date">Date: {blog.date}</p>
                   </li>
                 )
@@ -27,6 +28,7 @@ const IndexPage = (props) => {
           </ul>
         </div>
       </section>
+      <Footer />
     </>
   )
 }

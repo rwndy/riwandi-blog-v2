@@ -1,11 +1,16 @@
+import {Navbar} from '../../components'
+import { useRouter } from 'next/router'
 
 function BlogPostPage(props) {
+  const router = useRouter()
   return (
     <>
+    <Navbar />
       <article className="container article-wrap">
-        <h1 className="text-white text-center mt-4 mb-3">{props.blog.title}</h1>
+        <h1 className="article-title">{props.blog.title}</h1>
         <div className="container article-text" dangerouslySetInnerHTML={{ __html: props.blog.content }}>
         </div>
+      <span className="back" onClick={() => router.back()}><u>{`< kembali`}</u></span>
       </article>
     </>
   );

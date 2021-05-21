@@ -59,6 +59,12 @@
       z-index: 10000000000;
     }
 
+    &__toggle.active {
+      > img {
+        width: 2rem;
+      }
+    }
+
     &__item {
       position: fixed;
       top: 0;
