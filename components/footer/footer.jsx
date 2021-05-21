@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="d-flex justify-content-center footer">
+    <footer className="footer">
       <p className="footer--text">{`Copyright © Riwandi ${new Date().getFullYear()}`}</p>
     </footer>
   )

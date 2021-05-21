@@ -1,3 +1,6 @@
-import Maintance from './Maintance/Maintance'
+import Footer from './Footer/footer'
+import HomeComponent from './Home'
+import Meta from './Meta'
+import Navbar from './Navbar'
 
-export { Maintance }
+export { Footer, HomeComponent, Meta, Navbar }
