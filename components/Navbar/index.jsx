@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const menu_burger = '/assets/images/burger.png'
-const close_burger = '/assets/images/x.svg'
+const close_burger = '/assets/images/close.svg'
 const Navbar = () => {
   const item_navbar = [
     { name: 'about', slug: '/about' },
