@@ -9,6 +9,6 @@ Sebenarnya Gue pengin banget melahirkan sebuah Buku. Dulu, di tahun 2013-2016 ud
 
 Cuman, ya, gak Gue lanjut lagi. Gue simpen draft-nya di Dropbox gue. Pengin, sih, lanjut bercerita lagi. Cuman bingung, mau nulis cerita apa. Tentang apa?? Kalau tentang goreng?? Bisanya cuman di makan.
 
-Yah, begitulah Gue saat ini. Kebanyakan bingung untuk memulai darimananya. Kayak memulai cinta baru gituh. Hahahahah.
+Yah, begitulah Gue saat ini. Kebanyakan bingung untuk memulai dari mananya. Kayak memulai cinta baru gituh. Hahahahah.
 
 Cinta baru kalau huruf R-nya hilang??
