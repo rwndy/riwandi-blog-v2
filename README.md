@@ -1,6 +1,6 @@
 <h1 align="center">Riwandi Web</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-0.1.0-black.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-2.0.0-black.svg?cacheSeconds=2592000" />
   <a href="https://opensource.org/licenses/MIT">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-black.svg" target="_blank" />
   </a>
