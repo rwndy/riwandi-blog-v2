@@ -1,5 +1,5 @@
 import AboutMe from './About'
-import Footer from './Footer/footer'
+import Footer from './Footer'
 import HomeComponent from './Home'
 import Meta from './Meta'
 import Navbar from './Navbar'
