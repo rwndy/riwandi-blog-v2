@@ -4,5 +4,6 @@ import HomeComponent from './Home'
 import Meta from './Meta'
 import Navbar from './Navbar'
 import PortfolioComponent from './Portfolio'
+import ContactComponent from './Contact'
 
-export { AboutMe, Footer, HomeComponent, Meta, Navbar, PortfolioComponent }
+export { AboutMe, ContactComponent , Footer, HomeComponent, Meta, Navbar, PortfolioComponent }
