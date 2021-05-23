@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import {Navbar, Footer} from '../../components'
 
 const IndexPage = (props) => {
 
@@ -7,9 +8,9 @@ const IndexPage = (props) => {
 
   return (
     <>
-      <section className="container-fluid h-100">
-        <h1 className="text-white text-center mt-4">My Blog</h1>
-        <div className="container">      
+    <Navbar />
+      <section className="blog">
+        <div className="container ">
           <ul className="blog-list">
             {
               sort_post_by_dates.map(blog => {
@@ -18,15 +19,15 @@ const IndexPage = (props) => {
                     <Link href={`/blog/${blog.slug}`}>
                       <a>{blog.title}</a>
                     </Link>
-                      <p className="blog-author">Author: {blog.author}</p>
-                      <p className="blog-date">Date: {blog.date}</p>
+                    <p className="blog-date">Date: {blog.date}</p>
                   </li>
                 )
               })
             }
           </ul>
-        </div>
+        </div>   
       </section>
+      <Footer />
     </>
   )
 }

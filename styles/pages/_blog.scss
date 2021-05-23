@@ -1,3 +1,6 @@
+.blog {
+  height: 100%;
+}
 
 .blog-list {
   margin: 4rem 0 0;
@@ -14,7 +17,7 @@
 
 .blog-item > a {
   color: $color-white;
-  font-size: 3rem;
+  font-size: clamp(1.8rem, 3vw, 3rem);
   font-weight: 700;
   text-decoration: none;
   line-height: 1.5;
@@ -23,12 +26,6 @@
 .blog-item > a:hover {
   text-decoration: none;
   color: $color-white;
-}
-
-.blog-author {
-  color: $color-white;
-  margin-bottom: 0px;
-  font-size: 1.6rem;
 }
 
 .blog-date {
@@ -42,9 +39,21 @@
   font-size: 1.6rem;
   line-height: 1.5;
   font-weight: 400;
-  text-align: justify;
+  text-align: left;
 }
 
-.article-wrap {
-  height: 100%;
+.article-title {
+  font-size: clamp(2.4rem, 10vw, 4.8rem);
+  color: $color-white;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.back {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #3996F7;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
