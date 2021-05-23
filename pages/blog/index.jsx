@@ -9,9 +9,8 @@ const IndexPage = (props) => {
   return (
     <>
     <Navbar />
-      <section className="container blog">
-        <h1 className="text-white text-center mt-4 blog__title">My Blog</h1>
-        <div className="container">      
+      <section className="blog">
+        <div className="container ">
           <ul className="blog-list">
             {
               sort_post_by_dates.map(blog => {
@@ -20,13 +19,13 @@ const IndexPage = (props) => {
                     <Link href={`/blog/${blog.slug}`}>
                       <a>{blog.title}</a>
                     </Link>
-                      <p className="blog-date">Date: {blog.date}</p>
+                    <p className="blog-date">Date: {blog.date}</p>
                   </li>
                 )
               })
             }
           </ul>
-        </div>
+        </div>   
       </section>
       <Footer />
     </>

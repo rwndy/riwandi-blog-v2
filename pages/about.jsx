@@ -1,9 +1,12 @@
+import { AboutMe, Navbar, Footer } from '../components'
 
 const About = () => {
   return (
-   <section className="container about">
-
-   </section>
+   <>
+    <Navbar />
+    <AboutMe />
+    <Footer />
+   </>
   )
 }
 
