@@ -6,11 +6,13 @@ function BlogPostPage(props) {
   return (
     <>
     <Navbar />
-      <article className="container article-wrap">
-        <h1 className="article-title">{props.blog.title}</h1>
-        <div className="container article-text" dangerouslySetInnerHTML={{ __html: props.blog.content }}>
+      <article className="article-wrap">
+        <div className="container">
+          <h1 className="article-title">{props.blog.title}</h1>
+          <div className="article-text" dangerouslySetInnerHTML={{ __html: props.blog.content }}>
+          </div>
+          <div className="back" onClick={() => router.back()}><u>{`< kembali`}</u></div>
         </div>
-      <span className="back" onClick={() => router.back()}><u>{`< kembali`}</u></span>
       </article>
     </>
   );
