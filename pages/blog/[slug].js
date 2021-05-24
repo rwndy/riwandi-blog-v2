@@ -1,10 +1,17 @@
 import {Navbar} from '../../components'
 import { useRouter } from 'next/router'
+import Meta from '../../components/Meta/CustomMeta'
 
 function BlogPostPage(props) {
   const router = useRouter()
   return (
     <>
+    <Meta
+      lang="id"
+      title={`${props.blog.title} | Riwandi`}
+      url={`riwandi-blog.vercel.app/blog/${props.blog.slug}`}
+      description={props.blog.description}
+    />
     <Navbar />
       <article className="article-wrap">
         <div className="container">

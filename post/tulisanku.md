@@ -3,6 +3,7 @@ author: Riwandi
 date: '2021-05-24'
 title: 'Curhat Aja Ini Mah Yah'
 slug: tulisanku
+description: Cerita tentang kebimbangan Gue untuk menjadi Penulis
 ---
 
 Sebenarnya Gue pengin banget melahirkan sebuah Buku. Dulu, di tahun 2013-2016 udah mulai rajin buat nulis cerita, terus udah sempat mulai menulis novel tentang cerita pribadi Gue. Niru Radityadika banget lha, pokoknya waktu itu.
