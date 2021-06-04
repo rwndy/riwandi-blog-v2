@@ -1,4 +1,4 @@
-import {Navbar} from '../../components'
+import {Navbar, Footer} from '../../components'
 import { useRouter } from 'next/router'
 import Meta from '../../components/Meta/CustomMeta'
 
@@ -21,6 +21,7 @@ function BlogPostPage(props) {
           <div className="back" onClick={() => router.back()}><u>{`< kembali`}</u></div>
         </div>
       </article>
+      <Footer />
     </>
   );
 }
