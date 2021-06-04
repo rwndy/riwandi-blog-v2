@@ -20,6 +20,6 @@ Setelah 15 menit sambil memegang handphone dengan keadaan yang seperti itu, akhi
 
 'Ya, Aku mau jadi pacar Kamu'.
 
-Kemudian handphone-nya terjatuh ke lantai dan akhirnya bangun dari tidurnya yang nyenyak.
+Kemudian handphone-nya terjatuh ke lantai dan akhirnya dia bangun dari tidurnya yang nyenyak.
 
 'Sial! Coba kalau itu beneran terjadi'.
