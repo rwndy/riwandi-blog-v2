@@ -6,8 +6,6 @@ slug: singkat-saja
 description: Sebuah puisi yang terinspirasi dari cuitan di Twitter
 ---
 
-## Singkat Saja
-
-<i>Dulu di Semarang</i>
-<i>Sekarang di Tangerang</i>
-<i>Besok di pelukanmu<i>
+<i>Dulu di Semarang</i><br/>
+<i>Sekarang di Tangerang</i><br/>
+<i>Besok di pelukanmu<i><br/>
